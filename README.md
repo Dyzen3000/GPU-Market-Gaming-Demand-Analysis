@@ -263,29 +263,42 @@ SHS provides context about installed hardware adoption. It does not represent al
    - Game releases by year and genre.
    - Player activity by genre.
 
+<img width="655" height="336" alt="Screenshot 2026-09-18 214713" src="https://github.com/user-attachments/assets/06a6d3ca-edc1-4318-91a9-90853073dd64" />
+
 2. **Hardware Required to Play Latest Games**
-   - Recent game counts.
-   - Player numbers by GPU price segment.
-   - Average required performance and VRAM.
+   - Sum of Peak CCU numbers by price segment of recommended GPU.
+   - Most Recommended GPUs by required performance and price.
    - Recommended GPU specifications.
 
+<img width="695" height="389" alt="image" src="https://github.com/user-attachments/assets/80413b2a-948f-4b13-b90e-c50da4706e4d" />
+<img width="472" height="181" alt="image" src="https://github.com/user-attachments/assets/5dbe0cec-835b-4a23-84cf-9e4f64b25888" />
+<img width="626" height="349" alt="image" src="https://github.com/user-attachments/assets/fb8deee1-f265-41b0-b580-c0199327e7b6" />
+
 3. **GPUs That Meet Latest Game Requirements**
-   - GPU performance versus requirement thresholds.
+   - GPU performance over years versus requirement thresholds.
    - Models meeting the average Action game requirement.
 
+<img width="607" height="324" alt="image" src="https://github.com/user-attachments/assets/090541a0-f1cd-4d0e-a8ba-7a895967f84d" />
+
+
 4. **Latest SHS GPU Market Share**
-   - Share by GPU series.
-   - Performance by GPU series.
-   - Launch MSRP by GPU series.
+   - SHS Share by GPU series.
+   - SHS Share by GPU Performance of each GPU Series.
+
+<img width="653" height="337" alt="image" src="https://github.com/user-attachments/assets/506a9ec4-909f-4aa4-ad2d-9c88171c034f" />
 
 5. **GPU Share Over Time**
    - GPU class share over time.
    - Price-segment share over time.
+  
+<img width="653" height="366" alt="image" src="https://github.com/user-attachments/assets/067cb4a7-5e29-4885-9a34-78b76b2c8423" />
 
 6. **Best Available GPUs in the Price Bracket**
    - Price-to-performance comparison.
    - VRAM comparison.
-   - Model-level GPU specifications.
+
+<img width="652" height="338" alt="image" src="https://github.com/user-attachments/assets/c779dd86-b553-418e-8c29-54b21d09270b" />
+<img width="421" height="339" alt="image" src="https://github.com/user-attachments/assets/2806a70b-f9ca-4d93-8200-752e1c2086c6" />
 
 ## Next Steps
 
