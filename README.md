@@ -28,6 +28,12 @@ The project combines PostgreSQL, Python, Excel, and Power BI to analyze game req
 | `GPU_VRAM` | Estimated VRAM requirement in GB |
 | `GPU_MSRP` | GPU price associated with the requirement |
 
+## Meanings of Gaming Terms 
+
+1. AAA - The Biggest, Most anticipated and most usually also the most Taxing games on the system
+2. VRAM - Is the amount of superfast onboard memory on the GPU itself, required for rendering game world
+3. GPU Class - The Class of GPU tells the amount of performance it's expected to deliver and price point it aims for.
+
 ## Data Structure and Overview
 
 ### Game ID Database
@@ -77,7 +83,7 @@ The analysis examines:
 
 ### GPU Candidate Filtering
 
-The candidate set is restricted to GPUs with an MSRP between **$200 and $599**, as they account for 50% of the market and is a growing sector with a very wide adoption rate. GPUs of Mid and Mid+ Class are present in this range. Models are evaluated using performance, VRAM, and price-to-performance.
+The candidate set is restricted to GPUs with an MSRP between **$200 and $599**, as they account for 50% of the market and no GPUs below $200 are recommended for any of the Latest AAA games. GPUs of Mid and Mid+ Class are present in this range. Models are evaluated using performance, VRAM, and price-to-performance.
 
 ### Sensitivity Analysis
 
@@ -227,21 +233,30 @@ The latest SHS visualization shows the following GPU series shares:
 
 SHS provides context about installed hardware adoption. It does not represent all GPU sales or every GPU currently available.
 
-### 7. Excel and Power BI Supporting Analysis
+### 7. Excel Supporting Analysis
 
-Additional analyses include:
+#### Average GPU MSRP by launch year and GPU class.
 
-- Average GPU MSRP by launch year and GPU class.
-- Average VRAM by GPU series.
-- Average GPU performance by launch year and GPU class.
-- SHS GPU share by GPU class and year.
-- SHS GPU share by price segment and year.
-- Price-to-performance comparison for GPUs priced between $200 and $599.
-- GPU VRAM comparison by series.
+<img width="476" height="232" alt="Screenshot 2026-09-18 212408" src="https://github.com/user-attachments/assets/03ad8f75-4d73-46c6-a85f-d974b24508f5" />
 
-## Dashboard Pages
+#### Average VRAM by Year and GPU Class.
 
-The Power BI dashboards cover:
+<img width="351" height="181" alt="Screenshot 2026-08-27 003550" src="https://github.com/user-attachments/assets/8bf1225b-b7c1-4e2c-88c1-ddf4e533d824" />
+
+#### Average GPU performance by launch year and GPU class.
+
+<img width="350" height="239" alt="Screenshot 2026-09-18 212526" src="https://github.com/user-attachments/assets/3625d6d2-fc28-4b3a-9b3c-b1ecb0b1a4d3" />
+
+#### SHS GPU share by GPU class and year.
+
+<img width="467" height="148" alt="Screenshot 2026-09-18 212633" src="https://github.com/user-attachments/assets/5e5d4843-e1da-4f00-a96d-51cd41d7a971" />
+
+#### VRAM comparison of available GPUs by series.
+
+<img width="173" height="129" alt="image" src="https://github.com/user-attachments/assets/32554420-a021-4043-aae4-7ebecfb3fdaa" />
+
+
+### 8. Power BI Supporting Analysis
 
 1. **Game Genre Attributes**
    - Game count by genre.
