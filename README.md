@@ -32,7 +32,10 @@ The project combines PostgreSQL, Python, Excel, and Power BI to analyze game req
 
 ### Game ID Database
 
-Lists all the games on steam with corresponding release date, player numbers and genre tags. Required to collect player numbers and slice by Genre(Action, Adventure, RPG, Indie, Strategy) and Game types(Multiplayer, Single Player, Free to play). Only top 1970 games are used in ths analysis because they account for 95% of the player base and the remaining 123899 only account for 5%.
+Lists all the games on steam with corresponding release date, player numbers and genre tags. Required to collect player numbers and slice by Genre(Action, Adventure, RPG, Indie, Strategy) and Game types(Multiplayer, Single Player, Free to play). Only top 970 games are used in this analysis because they account for 95% of the player base and the remaining 123899 only account for 5%.
+
+<img width="653" height="367" alt="Cutoff" src="https://github.com/user-attachments/assets/9ea98c45-dd1b-42fb-9f22-36873f15b780" />
+
 
 ### Game Requirements Dataset
 
@@ -41,6 +44,8 @@ Lists the Games and the hardware configuration that is required to run it(GPU, R
 ### Steam Hardware Survey Dataset
 
 Steam Hardware Survey(SHS) is used as an indicator of installed hardware adoption, not as a direct measure of sales. It gives us an idea of the hardware gamers have and thus a price point to target. Only DX12 numbers for GPUs share is used as it accounts for 91% of all games and the software all new games run on.
+
+<img width="710" height="236" alt="Direct X" src="https://github.com/user-attachments/assets/6a1c10c3-d68b-474c-9f14-4382a9fa7da0" />
 
 ### GPU Specifications Dataset
 
@@ -72,7 +77,7 @@ The analysis examines:
 
 ### GPU Candidate Filtering
 
-The candidate set is restricted to GPUs with an MSRP between **$200 and $599**, as they account for 50% of the market. Candidate models are evaluated using performance, VRAM, and price-to-performance.
+The candidate set is restricted to GPUs with an MSRP between **$200 and $599**, as they account for 50% of the market and is a growing sector with a very wide adoption rate. GPUs of Mid and Mid+ Class are present in this range. Models are evaluated using performance, VRAM, and price-to-performance.
 
 ### Sensitivity Analysis
 
